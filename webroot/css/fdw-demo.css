@@ -1,0 +1,60 @@
+
+/* Buttom Style */
+.freshdesignweb-top{
+	text-align:center;
+	color:#275973;
+	line-height: 44px;
+	font-size: 11px;
+    background: rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	position: relative;
+	box-shadow: 3px 0px 5px rgba(0,0,0,0.2);
+}
+.freshdesignweb-top a{
+	color:#fcca00;
+}
+.freshdesignweb-top a:hover{
+	color:#0b2f42;
+}
+.freshdesignweb-top h1{
+	margin:0 auto;
+	width:490px;
+	background:url(images/logo.png) no-repeat;
+	font-weight:bold;
+	font-family: 'Open Sans Condensed','Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-size:36px;
+	text-shadow: 2px 2px 0px #F2F2F2, 1px 2px 0px #B1B1B2;
+}
+/* Buttom Style */
+.freshdesignweb-buttom{
+	font-family: 'Open Sans Condensed','Arial Narrow', Arial, sans-serif;
+	color:#009;
+	line-height: 24px;
+	font-size: 11px;
+    background: rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	position: relative;
+	box-shadow: 3px 0px 5px rgba(0,0,0,0.2);
+}
+.freshdesignweb-buttom a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+.freshdesignweb-buttom a:hover{
+	background:#FFF;
+}
+.freshdesignweb-buttom span.right{
+	float: right;
+	font-weight:bold;
+}
+.freshdesignweb-buttom span.right a{
+	display: block;
+}
+.freshdesignweb{ 
+    margin:0 auto;
+	width:100%;
+}

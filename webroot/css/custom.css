@@ -1,0 +1,73 @@
+@media screen and (max-width: 765px) {
+
+	.fonts-title {
+	  font-size: 2em;
+	}
+
+	.icon-add a {
+		 font-size: 4em;
+	}
+
+	.small-box .icon-add {
+	    position: absolute;
+	    top: 30%;
+	}
+}
+
+@media screen and (max-width: 555px) {
+
+	.fonts-title {
+	  font-size: 1em;
+	}
+
+	.icon-add a {
+		 font-size: 2em;
+	}
+
+	.small-box .icon-add {
+	    position: absolute;
+	    top: 35%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+  /*.fonts-title {
+      font-size: 2em;
+  }*/
+	.icon-add a {
+		 font-size: 1em;
+	}
+
+	.small-box .icon-add {
+	    position: absolute;
+	    top: 40%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+
+	.fonts-title {
+	  font-size: 24px;
+	}
+
+	.icon-add a {
+	  font-size: 40px;
+	}
+
+	.small-box .icon-add {
+	    position: absolute;
+	    top: 35%;
+	}
+
+}
+
+#nextScene {
+	display: none;
+}
+
+.btn-add {
+	position: absolute;
+    top: 0px;
+    right: 45px;
+}

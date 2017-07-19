@@ -1,0 +1,246 @@
+.small-box .icon-add {
+  transition: all 0.3s linear;
+  position: absolute;
+  top: 35%;
+  display: block;
+  z-index: 0;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  text-align: center;
+  opacity: 0.4;
+  text-shadow: 2px 2px 4px #DBDBDB;
+}
+
+.small-box .icon-edit {
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    z-index: 0;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.small-box .icon-view {
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 55px;
+    z-index: 0;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.small-box:hover .icon-view {
+  font-size: 50px;
+}
+
+.width-title {
+  width: 50%;
+}
+
+.hiddle-hover {
+  display: none;
+}
+
+/* Portolio Hover */
+.da-thumbs ,
+.da-thumbs img {
+  display: block;
+  position: relative;
+}
+.da-thumbs  {
+  overflow: hidden;
+}
+.da-thumbs article {
+  position: absolute;
+  background-image:url(/img/css/image_hover.png);
+  background-repeat:repeat;
+  width: 100%;
+  height: 100%;
+}
+.da-thumbs  article.da-animate {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+  left: 0px;
+  top: -100%;
+}
+.da-slideFromBottom {
+  left: 0px;
+  top: 100%;
+}
+.da-slideFromLeft {
+  top: 0px; 
+  left: -100%;
+}
+.da-slideFromRight {
+  top: 0px;
+  left: 100%;
+}
+/* Final state classes: */
+.align-title {
+  margin-top: 18%;
+  font-size: 30px;
+}
+
+.align-add {
+  margin-top: -41%;
+  margin-left: 44%;
+  font-size: 30px;
+}
+
+.da-slideTop {
+  top: 0px;
+}
+.da-slideLeft {
+  left: 0px;
+}
+.da-thumbs article a {
+  color:#fff;
+  padding:20px;
+  display:block;
+}
+
+.da-thumbs {
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.da-thumbs article h3{
+color:#fff;
+padding-top: 0%;
+}
+
+.da-thumbs  article em{
+margin-bottom:10px;
+color:#fff;
+display:block;
+}
+
+.da-thumbs article span{
+display:inline-block;
+}
+
+span.link_post{
+display:block;
+width:35px;
+height:35px;
+background-color:#DF6232;
+border-radius:50px;
+cursor:pointer;
+background-image:url(/img/css/eye.png);
+background-repeat:no-repeat;
+background-position:center;
+margin-right:10px;
+}
+
+span.zoom{
+overflow:hidden;
+display:block;
+width:35px;
+height:35px;
+background-color:#DF6232;
+border-radius:50px;
+cursor:pointer;
+background-image:url(/img/css/pecil.png);
+background-repeat:no-repeat;
+background-position:center;
+margin-left:10px;
+}
+
+.portfolio_2col article h3{
+padding-top:70px !important;
+}
+
+/* Image Grid */
+.image_grid {
+  float:left;
+  overflow:hidden;
+  width:100%;
+  position:relative;
+
+}
+
+.image_grid {
+  float: left;
+  line-height: 17px;
+  color: #686f74;
+  list-style:none;
+  overflow:hidden;
+  margin-bottom:23px;
+  margin-right:23px;
+  text-align:center;
+}
+
+
+.img-margin {
+  width: 100%;
+}
+
+.title-add {
+      margin-top: 0px;
+}
+
+.modal {
+   /*display: inline-block;*/
+   vertical-align: middle;
+}
+
+.modal-header .close {
+    margin-top: -22px;
+}
+
+@media screen and (min-width: 400px) {
+
+.modal-dialog {
+    width: 340px;
+    margin: 155px auto;
+}
+
+.modal-hotspot {
+  width: 600px;
+}
+
+}
+
+.add-color {
+  color: #fefefe;
+}
+
+.add-color:hover {
+  color: #3c8dbc;
+}
+
+.modal-header {
+  background-color: #367fa9;
+}
+
+.box-delete {
+  position: absolute;
+  display: block;
+  top: 9px;
+  right: 9px;
+}
+
+#pano {
+  width: 100%;
+  height: 500px;
+}
+
+.add-scene {
+  margin-bottom: 0px;
+}
+
+.color-model {
+  color: #fff;
+}
+
+#formScene {
+  display: none;
+}
